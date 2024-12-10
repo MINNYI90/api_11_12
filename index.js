@@ -100,7 +100,6 @@ app.post('/login', (req, res) => {
               name: user.name,
               status: user.status,
               password: user.password,
-              avatar: user.avatar,
             },
           });
         }
